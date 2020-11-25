@@ -7,7 +7,7 @@ class Red {
         this.width = width;
         this.height = height;
         this.Visiblity = 255;
-        this.image = loadImage("sprites/lightRed.png");
+        this.image = loadImage("lightRed.png");
         World.add(world,this.body);
     }
     display(){
