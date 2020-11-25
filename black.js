@@ -6,7 +6,7 @@ class Black {
         this.body = Bodies.rectangle(x,y,width,height,options);
         this.width = width;
         this.height = height;
-        this.image = loadImage("sprites/black.png");
+        this.image = loadImage("black.png");
         this.Visiblity = 255;
         World.add(world,this.body);
     }
