@@ -7,7 +7,7 @@ class Brown {
         this.width = width;
         this.height = height;
         this.Visiblity = 255;
-        this.image = loadImage("sprites/brown.png");
+        this.image = loadImage("brown.png");
         World.add(world,this.body);
     }
     display(){
